@@ -1,1 +1,32 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.ota {
+  max-width: 100%;
+  height: auto;
+  background-color: #678FF2;
+}
+.ota h1 {
+  text-align: center;
+}
+.ota .blok1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.ota .blok2 {
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+}
+.ota .menu {
+  border: 1px solid transparent;
+  width: 150px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
