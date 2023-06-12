@@ -1,1 +1,113 @@
-$qizil: red;
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #5081ED;
+    font-family: 'PT Sans', sans-serif;
+}
+.our-company{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about-company{
+    margin-top: 201px;
+    margin-left: 160px;
+}
+.about-company h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 14px;
+    color: white;
+}
+.about-company p{
+    padding-top: 52px;
+    width: 698px;
+    height: 60px;
+    color: white;
+    font-size: 17px;
+    font-weight:100;
+    line-height: 30px;
+}
+.img-cactus{
+    margin-top: -100px ;
+}
+@media screen and (max-width:1200px) {
+    .about-company{
+        margin-left: 100px;
+    }
+    .about-company p{
+        width: 500px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .about-company{
+        margin-left: 60px;
+    }
+    .about-company p{
+        width: 350px;
+        height: 60px;
+    }
+    .img-cactus img{
+        width: 450px;
+        height: 600px;
+    }
+}
+@media screen and (max-width:800px) {
+    .about-company{
+        margin-left: 30px;
+    }
+    .about-company p{
+        width: 350px;
+        height: 60px;
+    }
+    .img-cactus img{
+        width: 300px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:600px) {
+    .about-company{
+        margin-left: 10px;
+    }
+    .about-company p{
+        width: 350px;
+        height: 60px;
+    }
+    .img-cactus img{
+        width: 250px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:500px) {
+    .our-company{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-cactus{
+        margin-top: 200px ;
+        margin: auto;
+    }
+}
+@media screen and (max-width:375px) {
+    .img-cactus{
+        margin-top: 100px ;
+
+    }
+    .img-cactus img{
+        width: 264px;
+        height: 396px;
+        padding-left: 50px;
+    }
+    .about-company h1{
+        font-size: 35px;
+    }
+    .about-company p{
+        width: 314px;
+        height: 80px;
+        font-size: 17px;
+    }
+}
